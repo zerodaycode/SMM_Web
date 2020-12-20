@@ -1,0 +1,40 @@
+{% extends 'smm_web/base.html' %}
+
+<!doctype html>
+
+{% block styles %}
+    <link href="./static/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+      <style>  
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+        }
+
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+      <!-- Bootstrap core CSS -->
+
+    <!-- Custom styles for this template -->
+    <link href="./static/assets/dist/css/cover.css" rel="stylesheet">
+{% endblock %}
+
+{% block title %}Home Link{% endblock %}
+
+{% block content %} 
+  <main role="main" class="inner cover">
+    <h1 class="cover-heading">Social Media Manager</h1>
+    <p class="lead">Social Media Manager es una aplicación creada POR y PARA la completa gestión de las redes sociales. Aumenta la visibilidad creando increíbles publicaciones simultáneas, controlando
+    por completo el público que desesas y haz crecer tu negocio.</p>
+    <p class="lead">
+      <a href='/producto' class="btn btn-lg btn-secondary">Saber más</a>
+    </p>
+  </main>
+{% endblock %}
